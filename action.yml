@@ -1,0 +1,12 @@
+name: greeting from node js
+description: "greeting someone who pushed "
+inputs:
+name:
+  description: "name"
+  required: true
+  default: "deep"
+outputs:
+  greetings:
+  description: "how we greeted you"
+using: "node20"
+main: index.js  
