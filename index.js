@@ -1,4 +1,5 @@
-import * as core  from 'actions/core'
+const core = reuire('@actions/core')
+const github = reuire('@actions/github')
 
 
 try{
